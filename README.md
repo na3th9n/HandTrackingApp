@@ -31,7 +31,7 @@ All libraries are located in requirements.txt.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/na3th9n/Volume-Controller.git
+   git clone https://github.com/na3th9n/Remote-less-Remote.git
    ```
 2. Install libraries
    ```sh
