@@ -2,7 +2,7 @@
 
 ## About The Project
 
-The HandTrackingModule is a custom made module using OpenCV and leveraging Microsoft's Mediapipe models to track a person's hands. This module will be used for other projects that will need hand tracking inputs.
+This project, "Volume Controller", uses a custom made module called HandTrackingModule that utlizes OpenCV and MediaPipe to track and detect hands and places landmarks. By using NumPy, OpenCV, and pycaw (Python Core Audio Windows Library), we are able to change the volume of the device based on the distance between the thumb landmark and the index finger landmark.
 
 Made by: [Nathan Xie](https://github.com/na3th9n)
 
@@ -11,6 +11,8 @@ Made by: [Nathan Xie](https://github.com/na3th9n)
 - Python
 - OpenCV
 - MediaPipe
+- NumPy
+- [pycaw](https://github.com/AndreMiras/pycaw)
 
 ## Getting Started
 
@@ -22,22 +24,20 @@ All libraries are located in requirements.txt.
 
 - pip
   ```sh
-  pip install -r requirements.txt
+  pip install -r requirements
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/na3th9n/HandTrackingApp.git
    ```
 2. Install libraries
    ```sh
    pip install -r requirements.txt
    ```
-3. Run HandTrackingModule
+3. Run VolumeControl.py
 
 ## Usage
 
